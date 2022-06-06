@@ -3,6 +3,7 @@ const express=require("express")
 const fs=require("fs")
 const app=express();
 const { validate, ValidationError, Joi } = require('express-validation');
+const PORT = process.env.port || 8080;
 
 app.use(express.urlencoded({extended:true}))
 app.use(express.json())
@@ -85,6 +86,4 @@ app.post("/user/logout",(req,res)=>{
         })
     })
 }) 
-app.listen(8080,()=>{
-    console.log("server running at port http://localhost:8080/*")
-})
+app.listen(PORT)

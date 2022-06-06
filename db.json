@@ -1,0 +1,1 @@
+{"users":[{"name":"John Doe","role":"voter","username":"john","password":"1234","age":"15","id":1},{"name":"Donald Trump","role":"candidate","votes":0,"party":"partyA","age":15,"id":2}]}

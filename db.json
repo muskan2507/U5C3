@@ -6,7 +6,8 @@
       "username": "john",
       "password": "1234",
       "age": "15",
-      "id": 1
+      "id": 1,
+      "token": "6f90ffb5-cfc7-4cd5-97aa-41182e12248c"
     },
     {
       "name": "Donald Trump",
